@@ -1,0 +1,52 @@
+/* App.css or your CSS file */
+
+.container{
+    background-color: grey;
+    padding: 10px;
+    margin: 10px; 
+
+    
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #b1bac4;
+    font-size: 13px;
+    height: 90px;
+    width: 100%;
+    min-width: 200px;
+    font-weight: 500;
+    color: #0F1111;    
+}
+
+
+.Contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .left {
+    margin-right: auto; /* Pushes the element to the left */
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    margin-left: auto; /* Pushes the element to the right */
+  }
+  
+  
+.icons {
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  
+  
